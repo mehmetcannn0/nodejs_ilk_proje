@@ -9,8 +9,8 @@ var server =http.createServer((req,res)=>{
             res.write(html);
             res.end();
         })
-    } else if(req.url =="/urunler"){
-        fs.readFile("urunler.html",(err,html)=>{
+    } else if(req.url =="/yemekler"){
+        fs.readFile("yemekler.html",(err,html)=>{
             res.write(html);
             res.end();
         })
